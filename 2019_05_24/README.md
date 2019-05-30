@@ -13,6 +13,7 @@ Para compilar el programa se llevan a cabo los siguientes pasos:
  
 `
 gcc -c libfun.c -o libfun.o
+
 ar rcs libfun.a libfun.o
 `
 
@@ -23,4 +24,7 @@ gcc basico.c -L. -lfun -o basico
 `
 
 + Finalmente, el programa se ejecuta:
+
+`
 ./basico
+`
