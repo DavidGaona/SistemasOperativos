@@ -29,5 +29,4 @@ gcc basico.c -L. -lfun -o basico
 
 ```
 ./basico
-`
 ```
