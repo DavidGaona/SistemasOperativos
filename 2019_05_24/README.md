@@ -14,7 +14,6 @@ Para compilar el programa se llevan a cabo los siguientes pasos:
 `
 gcc -c libfun.c -o libfun.o    
 
-
 ar rcs libfun.a libfun.o
 `
 
