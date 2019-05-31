@@ -19,7 +19,7 @@ gcc -c libfun.c -o libfun.o
 ar rcs libfun.a libfun.o
 ```
 
-+ En el paso anterior se generó el archivo libfun.a. Ahora enlazaremos el programa basico.c con la librería libfun.a.
++ En el paso anterior se generó el archivo `libfun.a`. Ahora enlazaremos el programa `basico.c` con la librería `libfun.a`.
 
 ```
 gcc basico.c -L. -lfun -o basico
