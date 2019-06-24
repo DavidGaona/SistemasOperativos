@@ -2,11 +2,10 @@
 #include <string.h>
 
 int main() {
-    //int wSize = 100;
-    char hola[100] = {' '};
     for (int i = 0; i < 10; ++i){
+        char hola[100] = {' '};
         printf("Enter name: ");
-        scanf("%s ", hola);
+        scanf_s("%s \n", hola);
         printf("%c \n",hola[2]);
     }
 
